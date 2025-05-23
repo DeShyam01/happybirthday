@@ -1,7 +1,7 @@
 const countdown = () => {
   const now = new Date().getTime();
   const year = new Date().getFullYear();
-  const targetDate = new Date(`May 24, ${year} 01:49:00`).getTime();
+  const targetDate = new Date(`May 24, ${year} 02:05:00`).getTime();
     // const targetDate = new Date(`June 27, ${year} 00:00:00`).getTime();
 
   const distance = targetDate - now;
