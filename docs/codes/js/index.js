@@ -10,7 +10,7 @@ const countdown = () => {
     document.getElementById("countdown").innerHTML =
       "Happy Birthday dear 🎉<br>😘🥰🎂";
     setTimeout(() => {
-      window.location.href = "./note.html";
+      window.location.href = "../html/note.html";
     }, 5000);
     return;
   }
